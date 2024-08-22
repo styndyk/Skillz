@@ -150,3 +150,50 @@ li {
 .showcase img {
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
 }
+
+/* Stats styles */
+
+.lower-container {
+    margin: 120px auto;
+    padding: 0;
+    max-width: 1400px;
+}
+
+.stats {
+    padding: 45px 50px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stat {
+    margin:  0 30px;
+    text-align: center;
+    width: 800px;
+}
+
+.stats .fa {
+    color: purple;
+}
+
+.title {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.text {
+    color: black;
+    font-size: 19px;
+    width: 100%;
+    padding: 10px;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+/* End Stats styles */
