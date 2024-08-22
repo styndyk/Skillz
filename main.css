@@ -1,3 +1,5 @@
+/* General Styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,18 +16,20 @@ a {
     text-decoration: none;
 }
 
+h1, h2 {
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
 h1 {
     font-size: 30px;
     font-weight: 600;
-    margin: 10px 0;
-    line-height: 1.2;
+    
 }
 
 h2 {
     font-size: 25px;
     font-weight: 300;
-    margin: 10px 0;
-    line-height: 1.2;
 }
 
 p {
@@ -40,8 +44,10 @@ li {
     list-style-type: none;
 }
 
+/* End General Styles */
 
-/* Navbar Styles */
+
+/* General container styles */
 
 .container {
     margin: 0 auto;
@@ -49,17 +55,14 @@ li {
     overflow: visible;
 }
 
+/* End General container styles */
+
+/* Navbar Styles */
+
 .navbar {
     background-color: purple;
     height: 70px;
-    padding: 0 30px;
-}
-
-.navbar h1 {
-    font-size: 30px;
-    font-weight: 300;
-    margin: 10px 0;
-    line-height: 1.2;
+    padding: 0 30px; /* Це потрібно для того, щоб блок не впирався в краї на менших дисплеях */
 }
 
 .navbar .flex {
@@ -67,6 +70,10 @@ li {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.navbar h1 {
+    font-weight: 300;
 }
 
 .navbar ul {
@@ -92,18 +99,6 @@ li {
     background-color: purple;
 }
 
-.showcase p {
-    margin-bottom: 30px;
-}
-
-.showcase img {
-    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
-}
-
-.showcase-form {
-    padding-left: 7px;
-}
-
 .grid {
     overflow: visible;
     display: grid;
@@ -113,6 +108,18 @@ li {
 .grid-item-1, .grid-item-2 {
     position: relative;
     top: 50px;
+}
+
+.showcase p {
+    margin-bottom: 30px;
+}
+
+.showcase-form {
+    padding-left: 7px;
+}
+
+.showcase form {
+    margin: auto;
 }
 
 .showcase input[type='email'] {
@@ -135,11 +142,11 @@ li {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-.showcase form {
-    margin: auto;
-}
-
 .little-info {
     font-size: 15px;
     font-family: "poppins", sans-serif;
+}
+
+.showcase img {
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
 }
